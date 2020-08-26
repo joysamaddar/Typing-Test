@@ -1,2 +1,2 @@
-# speed-typing
-A speed typing app.
+# Typing Test
+A typing speed calculator app.
