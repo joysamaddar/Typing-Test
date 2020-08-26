@@ -63,7 +63,7 @@ input.addEventListener("keyup", (e) => {
     keystrokes.innerHTML = 0;
     correct.innerHTML = 0;
     wrong.innerHTML = 0;
-    time = 10;
+    time = 60;
     keystrokesnr = 0;
     correctnr = 0;
     wrongnr = 0;
@@ -72,7 +72,7 @@ input.addEventListener("keyup", (e) => {
     let countdown = setInterval(() => {
       time--;
       timer.innerHTML = time;
-      progressbar.style.width = `${(time / 10) * 100}%`;
+      progressbar.style.width = `${(time / 60) * 100}%`;
 
       if (progressbar.style.width <= "20%") {
         progressbar.style.background = "rgb(236, 73, 73)";
